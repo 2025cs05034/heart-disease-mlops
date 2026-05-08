@@ -19,6 +19,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Most common tasks are wrapped in the Makefile. Run `make help` to see them.
+The rest of this README spells the commands out so they work without `make`.
+
 ## Train
 
 ```bash
