@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: heart-disease
+  labels:
+    name: heart-disease
+    app.kubernetes.io/part-of: mlops-assignment

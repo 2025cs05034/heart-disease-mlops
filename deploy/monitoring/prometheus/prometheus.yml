@@ -1,0 +1,18 @@
+global:
+  scrape_interval: 10s
+  evaluation_interval: 10s
+  external_labels:
+    monitor: "heart-disease-mlops"
+
+scrape_configs:
+  - job_name: "heart-disease-api"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
+        labels:
+          service: "heart-disease-api"
+          environment: "local"
+
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]

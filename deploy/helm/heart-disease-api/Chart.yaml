@@ -1,0 +1,13 @@
+apiVersion: v2
+name: heart-disease-api
+description: Heart Disease Prediction API - MLOps Assignment (BITS Pilani)
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+maintainers:
+  - name: BITS Pilani M.Tech MLOps Student
+keywords:
+  - mlops
+  - fastapi
+  - heart-disease
+  - sklearn

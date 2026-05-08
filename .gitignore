@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Models / large artifacts
+models/*.pkl
+models/*.joblib
+models/*.onnx
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Data downloads (we will provide a script; don't commit raw data)
+data/raw/
+data/processed/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Local DB backups
+*.bak
+
+
+# Grafana admin password is a per-deployment secret;
+# only the .example template is checked in.
+deploy/monitoring/grafana_admin_password.txt

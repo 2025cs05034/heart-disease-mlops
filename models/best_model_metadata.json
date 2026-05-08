@@ -1,0 +1,42 @@
+{
+  "model_name": "logistic_regression",
+  "best_params": {
+    "clf__C": 1.0,
+    "clf__penalty": "l1"
+  },
+  "test_metrics": {
+    "accuracy": 0.8688524590163934,
+    "precision": 0.8333333333333334,
+    "recall": 0.8928571428571429,
+    "f1": 0.8620689655172413,
+    "roc_auc": 0.958874458874459
+  },
+  "cv_metrics": {
+    "cv_accuracy_mean": 0.8346938775510205,
+    "cv_accuracy_std": 0.013281104320181114,
+    "cv_precision_mean": 0.853923740510697,
+    "cv_precision_std": 0.05968998414741349,
+    "cv_recall_mean": 0.7833992094861661,
+    "cv_recall_std": 0.06773324399216349,
+    "cv_f1_mean": 0.8122561162711438,
+    "cv_f1_std": 0.01730453026349792,
+    "cv_roc_auc_mean": 0.9070318570318572,
+    "cv_roc_auc_std": 0.011448309514397773
+  },
+  "feature_order_input": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "random_seed": 42
+}
